@@ -16,6 +16,7 @@ class BiaoQingImageView: UIImageView {
     }
 
     func show() {
+        Music.shared().musicPlayMergeEffective()
         let x = Int(arc4random() % 18 + 10)
         self.image = UIImage.init(named: String(x))
         UIView.animate(withDuration: 1.5, animations: {

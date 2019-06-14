@@ -18,22 +18,32 @@ class ViewController: UIViewController {
             //标题晃动效果
             EffectiveClass.scale(view: self.titleLabel)
         }
-        let max = 4
+        let max = 5
         //设置scrollview
         scrollView.contentSize = CGSize.init(width: scrollView.frame.width, height: CGFloat(max / 2 + 1) * (UIScreen.main.bounds.width / 2) + 80)
         //添加按钮
         for i in 0...max {
+            if i == 3{
+                continue
+            }
             let button = SelectButton.init()
             //button.setTitle("jump", for: UIControl.State.normal)
-            if i == 3 {
-                button.config(image: "7", number: i)
+           
+            if i == 4 {
+                button.config(image: "unmute", number: i)
+                button.addTarget(self, action: #selector(self.mute(sender:)), for: UIControl.Event.touchUpInside)
             }else{
-                button.config(image: String(i * 2), number: i)
+                if i == 5{
+                     button.config(image: "info", number: i)
+                    button.addTarget(self, action: #selector(self.info(sender:)), for: UIControl.Event.touchUpInside)
+                }else{
+                    button.config(image: String(i * 2), number: i)
+                    //添加点击事件
+                    button.addTarget(self, action: #selector(self.button_click(sender:)), for: UIControl.Event.touchUpInside)
+                }
             }
             button.tag = i
             scrollView.addSubview(button)
-            //添加点击事件
-            button.addTarget(self, action: #selector(self.button_click(sender:)), for: UIControl.Event.touchUpInside)
         }
     }
     
@@ -43,9 +53,24 @@ class ViewController: UIViewController {
         EffectiveClass.baiYeIn(view: self.view)
     }
 
+    @objc func mute(sender:UIButton){
+        let volume = Music.shared().getMuteVolume()
+        if volume == 0 {
+            sender.setImage(UIImage.init(named: "unmute"), for: UIControl.State.normal)
+        }else{
+            sender.setImage(UIImage.init(named: "mute"), for: UIControl.State.normal)
+        }
+        Music.shared().musicChangeMute()
+    }
+    
+    @objc func info(sender:UIButton){
+        Music.shared().musicPlayEffective()
+    }
+    
     //按钮点击事件
     @objc func button_click(sender:UIButton){
         EffectiveClass.baiYeOut(view: self.view)
+        Music.shared().musicPlayEffective()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + TimeInterval(0.9)) {
             switch sender.tag {
             case 0:

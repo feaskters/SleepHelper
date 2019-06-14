@@ -47,6 +47,7 @@ class CatchViewController: UIViewController {
     }
     
     @IBAction func back(_ sender: Any) {
+        Music.shared().musicPlayEffective()
         EffectiveClass.baiYeOut(view: self.view)
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + TimeInterval(0.9)) {
             self.dismiss(animated: false, completion: nil)
@@ -54,6 +55,7 @@ class CatchViewController: UIViewController {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        Music.shared().musicPlayEffective()
         let x = arc4random() % UInt32(UIScreen.main.bounds.width)
         let sheep = SheepImageView.init(frame: CGRect.init(x: CGFloat( x), y: UIScreen.main.bounds.height - 200, width: 80, height: 150))
         self.view.addSubview(sheep)

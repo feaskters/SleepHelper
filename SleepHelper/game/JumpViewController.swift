@@ -25,6 +25,7 @@ class JumpViewController: UIViewController {
     }
 
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        Music.shared().musicPlayEffective()
         let sheep = SheepImageView.init(frame: CGRect.init(x: 10, y: UIScreen.main.bounds.height - 200, width: 80, height: 150))
         self.view.addSubview(sheep)
         sheep.runRight()
@@ -56,6 +57,7 @@ class JumpViewController: UIViewController {
 
     @IBAction func click(_ sender: UIButton) {
         EffectiveClass.baiYeOut(view: self.view)
+        Music.shared().musicPlayEffective()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + TimeInterval(0.9)) {
             self.dismiss(animated: false, completion: nil)
         }
