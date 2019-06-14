@@ -12,6 +12,18 @@
 		FE760AEB22B227BB00FF92B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE760AE922B227BB00FF92B4 /* Main.storyboard */; };
 		FE760AED22B227BF00FF92B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE760AEC22B227BF00FF92B4 /* Assets.xcassets */; };
 		FE760AF022B227BF00FF92B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE760AEE22B227BF00FF92B4 /* LaunchScreen.storyboard */; };
+		FE760AF922B2334F00FF92B4 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760AF822B2334F00FF92B4 /* SelectButton.swift */; };
+		FE760AFC22B241A600FF92B4 /* EffectiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760AFB22B241A600FF92B4 /* EffectiveClass.swift */; };
+		FE760B0022B24B3100FF92B4 /* JumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760AFE22B24B3100FF92B4 /* JumpViewController.swift */; };
+		FE760B0122B24B3100FF92B4 /* JumpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */; };
+		FE760B0322B252AF00FF92B4 /* SheepImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760B0222B252AF00FF92B4 /* SheepImageView.swift */; };
+		FEB27F5222B373D600730AA2 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */; };
+		FEB27F5522B378EB00730AA2 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB27F5322B378EB00730AA2 /* RunViewController.swift */; };
+		FEB27F5622B378EB00730AA2 /* RunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5422B378EB00730AA2 /* RunViewController.xib */; };
+		FEB27F5822B37FC900730AA2 /* UFOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB27F5722B37FC900730AA2 /* UFOView.swift */; };
+		FEB27F5B22B3816900730AA2 /* CatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB27F5922B3816900730AA2 /* CatchViewController.swift */; };
+		FEB27F5C22B3816900730AA2 /* CatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5A22B3816900730AA2 /* CatchViewController.xib */; };
+		FEB27F5E22B392C500730AA2 /* BiaoQingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB27F5D22B392C500730AA2 /* BiaoQingImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		FE760AEC22B227BF00FF92B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE760AEF22B227BF00FF92B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE760AF122B227BF00FF92B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE760AF822B2334F00FF92B4 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		FE760AFB22B241A600FF92B4 /* EffectiveClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectiveClass.swift; sourceTree = "<group>"; };
+		FE760AFE22B24B3100FF92B4 /* JumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpViewController.swift; sourceTree = "<group>"; };
+		FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JumpViewController.xib; sourceTree = "<group>"; };
+		FE760B0222B252AF00FF92B4 /* SheepImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepImageView.swift; sourceTree = "<group>"; };
+		FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		FEB27F5322B378EB00730AA2 /* RunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
+		FEB27F5422B378EB00730AA2 /* RunViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunViewController.xib; sourceTree = "<group>"; };
+		FEB27F5722B37FC900730AA2 /* UFOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOView.swift; sourceTree = "<group>"; };
+		FEB27F5922B3816900730AA2 /* CatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchViewController.swift; sourceTree = "<group>"; };
+		FEB27F5A22B3816900730AA2 /* CatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatchViewController.xib; sourceTree = "<group>"; };
+		FEB27F5D22B392C500730AA2 /* BiaoQingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiaoQingImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,10 @@
 		FE760AE422B227BB00FF92B4 /* SleepHelper */ = {
 			isa = PBXGroup;
 			children = (
+				FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */,
+				FE760AFA22B2418500FF92B4 /* resource */,
+				FE760AF722B2332100FF92B4 /* selector */,
+				FE760AFD22B24B0200FF92B4 /* game */,
 				FE760AE522B227BB00FF92B4 /* AppDelegate.swift */,
 				FE760AE722B227BB00FF92B4 /* ViewController.swift */,
 				FE760AE922B227BB00FF92B4 /* Main.storyboard */,
@@ -62,6 +90,38 @@
 				FE760AF122B227BF00FF92B4 /* Info.plist */,
 			);
 			path = SleepHelper;
+			sourceTree = "<group>";
+		};
+		FE760AF722B2332100FF92B4 /* selector */ = {
+			isa = PBXGroup;
+			children = (
+				FE760AF822B2334F00FF92B4 /* SelectButton.swift */,
+			);
+			path = selector;
+			sourceTree = "<group>";
+		};
+		FE760AFA22B2418500FF92B4 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE760AFB22B241A600FF92B4 /* EffectiveClass.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		FE760AFD22B24B0200FF92B4 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				FE760B0222B252AF00FF92B4 /* SheepImageView.swift */,
+				FE760AFE22B24B3100FF92B4 /* JumpViewController.swift */,
+				FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */,
+				FEB27F5322B378EB00730AA2 /* RunViewController.swift */,
+				FEB27F5422B378EB00730AA2 /* RunViewController.xib */,
+				FEB27F5722B37FC900730AA2 /* UFOView.swift */,
+				FEB27F5922B3816900730AA2 /* CatchViewController.swift */,
+				FEB27F5A22B3816900730AA2 /* CatchViewController.xib */,
+				FEB27F5D22B392C500730AA2 /* BiaoQingImageView.swift */,
+			);
+			path = game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB27F5C22B3816900730AA2 /* CatchViewController.xib in Resources */,
+				FEB27F5222B373D600730AA2 /* DS-DIGIB.TTF in Resources */,
 				FE760AF022B227BF00FF92B4 /* LaunchScreen.storyboard in Resources */,
+				FEB27F5622B378EB00730AA2 /* RunViewController.xib in Resources */,
 				FE760AED22B227BF00FF92B4 /* Assets.xcassets in Resources */,
+				FE760B0122B24B3100FF92B4 /* JumpViewController.xib in Resources */,
 				FE760AEB22B227BB00FF92B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE760AF922B2334F00FF92B4 /* SelectButton.swift in Sources */,
 				FE760AE822B227BB00FF92B4 /* ViewController.swift in Sources */,
+				FEB27F5B22B3816900730AA2 /* CatchViewController.swift in Sources */,
+				FE760AFC22B241A600FF92B4 /* EffectiveClass.swift in Sources */,
+				FEB27F5E22B392C500730AA2 /* BiaoQingImageView.swift in Sources */,
 				FE760AE622B227BB00FF92B4 /* AppDelegate.swift in Sources */,
+				FEB27F5522B378EB00730AA2 /* RunViewController.swift in Sources */,
+				FEB27F5822B37FC900730AA2 /* UFOView.swift in Sources */,
+				FE760B0322B252AF00FF92B4 /* SheepImageView.swift in Sources */,
+				FE760B0022B24B3100FF92B4 /* JumpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SleepHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProject.SleepHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SleepHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProject.SleepHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

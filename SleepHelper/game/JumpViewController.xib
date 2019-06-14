@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DS-DIGIB.TTF">
+            <string>DS-Digital-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JumpViewController" customModule="SleepHelper" customModuleProvider="target">
+            <connections>
+                <outlet property="count" destination="tXu-Nn-Pjq" id="Hy6-K7-8hR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jumpBack" translatesAutoresizingMaskIntoConstraints="NO" id="lb6-r4-utS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhalan" translatesAutoresizingMaskIntoConstraints="NO" id="GaD-MD-Xd2">
+                    <rect key="frame" x="75" y="433" width="225" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="epa-ga-zxv"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amb-gH-yl9">
+                    <rect key="frame" x="20" y="20" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Cv4-bs-YXE"/>
+                        <constraint firstAttribute="height" constant="50" id="LG2-fg-yy4"/>
+                    </constraints>
+                    <state key="normal" image="back"/>
+                    <connections>
+                        <action selector="click:" destination="-1" eventType="touchUpInside" id="QjD-4k-zx7"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXu-Nn-Pjq">
+                    <rect key="frame" x="157.5" y="175.5" width="60" height="116"/>
+                    <fontDescription key="fontDescription" name="DS-Digital-Bold" family="DS-Digital" pointSize="116"/>
+                    <color key="textColor" red="0.1215686275" green="0.6705882353" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tXu-Nn-Pjq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="0Rc-zs-Bbe"/>
+                <constraint firstItem="Amb-gH-yl9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="7Vq-Zg-Su3"/>
+                <constraint firstItem="Amb-gH-yl9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7ns-oN-Jzi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lb6-r4-utS" secondAttribute="trailing" id="J95-CY-oJA"/>
+                <constraint firstAttribute="bottom" secondItem="GaD-MD-Xd2" secondAttribute="bottom" constant="-16" id="NjJ-Yh-7Ss"/>
+                <constraint firstItem="lb6-r4-utS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SJ7-95-Mqk"/>
+                <constraint firstAttribute="bottom" secondItem="lb6-r4-utS" secondAttribute="bottom" id="SUw-dH-VZU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GaD-MD-Xd2" secondAttribute="trailing" constant="75" id="TU8-8w-M5m"/>
+                <constraint firstItem="GaD-MD-Xd2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="75" id="Zac-7O-uFx"/>
+                <constraint firstItem="GaD-MD-Xd2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eDp-EJ-mev"/>
+                <constraint firstItem="tXu-Nn-Pjq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="edq-7F-gQr"/>
+                <constraint firstItem="lb6-r4-utS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gKr-et-fbG"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="112.8" y="52.623688155922046"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="220" height="220"/>
+        <image name="jumpBack" width="720" height="1280"/>
+        <image name="zhalan" width="189" height="189"/>
+    </resources>
+</document>
