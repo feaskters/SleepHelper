@@ -1,6 +1,9 @@
 # SleepHelper
 
 IOS项目-助眠者
+
+[TOC]
+
 ## 玩法介绍
 - 只需要点击屏幕即可
 <img src="/SleepHelper/screenshot/1.png" width="200" height="400" align=center; />
