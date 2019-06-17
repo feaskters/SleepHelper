@@ -17,6 +17,7 @@
 		FE760B0022B24B3100FF92B4 /* JumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760AFE22B24B3100FF92B4 /* JumpViewController.swift */; };
 		FE760B0122B24B3100FF92B4 /* JumpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */; };
 		FE760B0322B252AF00FF92B4 /* SheepImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760B0222B252AF00FF92B4 /* SheepImageView.swift */; };
+		FE8E4D9022B73BD500B68547 /* SystemLanguageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8E4D8F22B73BD500B68547 /* SystemLanguageClass.swift */; };
 		FEB27F5222B373D600730AA2 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */; };
 		FEB27F5522B378EB00730AA2 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB27F5322B378EB00730AA2 /* RunViewController.swift */; };
 		FEB27F5622B378EB00730AA2 /* RunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5422B378EB00730AA2 /* RunViewController.xib */; };
@@ -43,6 +44,7 @@
 		FE760AFE22B24B3100FF92B4 /* JumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpViewController.swift; sourceTree = "<group>"; };
 		FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JumpViewController.xib; sourceTree = "<group>"; };
 		FE760B0222B252AF00FF92B4 /* SheepImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepImageView.swift; sourceTree = "<group>"; };
+		FE8E4D8F22B73BD500B68547 /* SystemLanguageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLanguageClass.swift; sourceTree = "<group>"; };
 		FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
 		FEB27F5322B378EB00730AA2 /* RunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
 		FEB27F5422B378EB00730AA2 /* RunViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunViewController.xib; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		FE760AFA22B2418500FF92B4 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				FE8E4D8F22B73BD500B68547 /* SystemLanguageClass.swift */,
 				FEB27F7222B3A46400730AA2 /* BGM.mp3 */,
 				FEB27F7022B3A32700730AA2 /* 1876.wav */,
 				FEB27F7422B3A52E00730AA2 /* merge.wav */,
@@ -230,6 +233,7 @@
 				FEB27F5822B37FC900730AA2 /* UFOView.swift in Sources */,
 				FE760B0322B252AF00FF92B4 /* SheepImageView.swift in Sources */,
 				FE760B0022B24B3100FF92B4 /* JumpViewController.swift in Sources */,
+				FE8E4D9022B73BD500B68547 /* SystemLanguageClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4P3QL82M5;
 				INFOPLIST_FILE = SleepHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -398,6 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4P3QL82M5;
 				INFOPLIST_FILE = SleepHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (

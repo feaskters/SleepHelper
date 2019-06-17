@@ -12,8 +12,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var titleLabel: UILabel!
     
+    lazy var tipbar : UIView = {
+        let width = UIScreen.main.bounds.width / 2 + 50
+        let height : CGFloat = 200
+        let tipbar = UIView.init(frame: CGRect.init(x: width - 50, y: -300, width: width, height: 0))
+        
+        let tipback = UIImageView.init(image: UIImage.init(named: "tipback"))
+        tipback.frame = CGRect.init(x: 0, y: 0, width: width, height: height)
+        tipbar.addSubview(tipback)
+        
+        let tiplabel = UILabel.init(frame: CGRect.init(x: 50, y: 0, width: width - 100, height: 200))
+        tiplabel.numberOfLines = 0
+        tiplabel.textColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        tiplabel.text = "You just need to tap the screen to count the sheep and then enter the sweet dreams."
+        if SystemLanguageClass.getCurrentLanguage() == "cn"{
+            tiplabel.text = "你只需要点击屏幕来数羊，然后进入香甜的梦乡"
+        }
+        tipbar.addSubview(tiplabel)
+        
+        return tipbar
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addSubview(tipbar)
         Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { (Timer) in
             //标题晃动效果
             EffectiveClass.scale(view: self.titleLabel)
@@ -65,6 +87,23 @@ class ViewController: UIViewController {
     
     @objc func info(sender:UIButton){
         Music.shared().musicPlayEffective()
+        
+        let width = UIScreen.main.bounds.width / 2 + 50
+        let height : CGFloat = 200
+        
+        if self.tipbar.frame.origin.y <= 0 {
+            //显示提示View
+            UIView.animate(withDuration: 0.5, animations: {
+                self.tipbar.frame = CGRect.init(x: (width - 50) / 2, y: UIScreen.main.bounds.height / 2 - 100, width: width, height: height)
+            }) { (Bool) in
+                EffectiveClass.jump(view: self.tipbar)
+            }
+        }else{
+            //关闭提示view
+            UIView.animate(withDuration: 0.8, animations: {
+                self.tipbar.frame = CGRect.init(x: width - 100, y: -300, width: width, height: 0)
+            })
+        }
     }
     
     //按钮点击事件
