@@ -2,15 +2,14 @@
 
 IOS项目-助眠者
 
-- <a href="#玩法介绍" >玩法介绍<a/>
-- <a href="#所学技术" >所学技术<a/>
-- <a href="#所用资源" >所用资源<a/>
+- <a href="#玩法介绍" >玩法介绍</a>
+- <a href="#所学技术" >所学技术</a>
+- <a href="#所用资源" >所用资源</a>
 
 ## 玩法介绍
 - 只需要点击屏幕即可
-<img src="/SleepHelper/screenshot/1.png" width="200" height="400" align=center; />
-
-<img src="/SleepHelper/screenshot/2.png" width="200" height="400" align=center; />
+<img src="/SleepHelper/screenshot/1.png" width="200" height="400" style="display:inline;"/>
+<img src="/SleepHelper/screenshot/2.png" width="200" height="400" style="display:inline;"/>
 
 ## 所学技术
 - 对之前所学技术的整合使用
