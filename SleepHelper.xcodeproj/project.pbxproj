@@ -18,6 +18,8 @@
 		FE760B0122B24B3100FF92B4 /* JumpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */; };
 		FE760B0322B252AF00FF92B4 /* SheepImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE760B0222B252AF00FF92B4 /* SheepImageView.swift */; };
 		FE8E4D9022B73BD500B68547 /* SystemLanguageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8E4D8F22B73BD500B68547 /* SystemLanguageClass.swift */; };
+		FE8E4D9422B7457B00B68547 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8E4D9222B7457B00B68547 /* 2.png */; };
+		FE8E4D9522B7457B00B68547 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8E4D9322B7457B00B68547 /* 1.png */; };
 		FEB27F5222B373D600730AA2 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */; };
 		FEB27F5522B378EB00730AA2 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB27F5322B378EB00730AA2 /* RunViewController.swift */; };
 		FEB27F5622B378EB00730AA2 /* RunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB27F5422B378EB00730AA2 /* RunViewController.xib */; };
@@ -45,6 +47,8 @@
 		FE760AFF22B24B3100FF92B4 /* JumpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JumpViewController.xib; sourceTree = "<group>"; };
 		FE760B0222B252AF00FF92B4 /* SheepImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepImageView.swift; sourceTree = "<group>"; };
 		FE8E4D8F22B73BD500B68547 /* SystemLanguageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLanguageClass.swift; sourceTree = "<group>"; };
+		FE8E4D9222B7457B00B68547 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FE8E4D9322B7457B00B68547 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
 		FEB27F5322B378EB00730AA2 /* RunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
 		FEB27F5422B378EB00730AA2 /* RunViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunViewController.xib; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 		FE760AE422B227BB00FF92B4 /* SleepHelper */ = {
 			isa = PBXGroup;
 			children = (
+				FE8E4D9122B7456300B68547 /* screenshot */,
 				FEB27F5122B373D600730AA2 /* DS-DIGIB.TTF */,
 				FE760AFA22B2418500FF92B4 /* resource */,
 				FE760AF722B2332100FF92B4 /* selector */,
@@ -141,6 +146,15 @@
 				FEB27F5D22B392C500730AA2 /* BiaoQingImageView.swift */,
 			);
 			path = game;
+			sourceTree = "<group>";
+		};
+		FE8E4D9122B7456300B68547 /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				FE8E4D9322B7457B00B68547 /* 1.png */,
+				FE8E4D9222B7457B00B68547 /* 2.png */,
+			);
+			path = screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +220,13 @@
 				FEB27F5222B373D600730AA2 /* DS-DIGIB.TTF in Resources */,
 				FE760AF022B227BF00FF92B4 /* LaunchScreen.storyboard in Resources */,
 				FEB27F7322B3A46400730AA2 /* BGM.mp3 in Resources */,
+				FE8E4D9422B7457B00B68547 /* 2.png in Resources */,
 				FEB27F5622B378EB00730AA2 /* RunViewController.xib in Resources */,
 				FEB27F7522B3A52E00730AA2 /* merge.wav in Resources */,
 				FE760AED22B227BF00FF92B4 /* Assets.xcassets in Resources */,
 				FE760B0122B24B3100FF92B4 /* JumpViewController.xib in Resources */,
 				FEB27F7122B3A32700730AA2 /* 1876.wav in Resources */,
+				FE8E4D9522B7457B00B68547 /* 1.png in Resources */,
 				FE760AEB22B227BB00FF92B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
